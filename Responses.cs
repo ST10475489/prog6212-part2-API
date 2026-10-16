@@ -17,6 +17,7 @@ namespace RaceDay.Api.Dtos
         public int UserId { get; set; }
     }
 
+    //response of results for the participant
     public class ResultDto
     {
         public int ResultId { get; set; }

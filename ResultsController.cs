@@ -64,6 +64,7 @@ namespace RaceDay.Api.Controllers
             return StatusCode(201, new { resultId = result.ResultId });
         }
 
+//gets public results for n event of all categories
         /// <summary>Gets the public results for an event across all categories.</summary>
         /// <remarks>Public. Returns an array of results ordered by category then position.</remarks>
         [HttpGet("api/events/{id}/results")]

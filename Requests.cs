@@ -8,6 +8,7 @@ namespace RaceDay.Api.Dtos
         public string Role { get; set; }
     }
 
+    //for login
     public class LoginRequest
     {
         public string Email { get; set; }

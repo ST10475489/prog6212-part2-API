@@ -33,6 +33,7 @@ namespace RaceDay.Api.Controllers
             return Ok(events);
         }
 
+/lists the event by searching it by ID
         /// <summary>Gets one event by id.</summary>
         /// <remarks>Public. Returns the event details. Use /route for the route data.</remarks>
         [HttpGet("{id}")]

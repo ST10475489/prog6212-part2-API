@@ -18,6 +18,7 @@ namespace RaceDay.Api.Controllers
             _db = db;
         }
 
+//listing all upcoming events
         /// <summary>Lists all upcoming events.</summary>
         /// <remarks>Public. Returns events dated today or later, soonest first.</remarks>
         [HttpGet]

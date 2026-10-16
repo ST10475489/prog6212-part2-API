@@ -18,6 +18,7 @@ namespace RaceDay.Api.Controllers
             _db = db;
         }
 
+//captures the finished results
         /// <summary>Captures a finish time and position for an enrolment.</summary>
         /// <remarks>Organiser who owns the event only. Expects finishTime (hh:mm:ss) and position. Fails with 409 if a result already exists.</remarks>
         [HttpPost("api/enrolments/{id}/results")]

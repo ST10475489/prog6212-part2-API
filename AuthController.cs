@@ -19,6 +19,7 @@ namespace RaceDay.Api.Controllers
             _tokens = tokens;
         }
 
+//for registration
         /// <summary>Registers a new Organiser or Participant account.</summary>
         /// <remarks>Expects fullName, email, password (min 8 characters) and role ("Organiser" or "Participant"). The password is hashed before it is stored. Returns the new user id and role.</remarks>
         [HttpPost("register")]

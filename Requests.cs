@@ -33,6 +33,7 @@ namespace RaceDay.Api.Dtos
         public string EventType { get; set; }   // run, walk or cycle
     }
 
+    //type of event
     public class CategoryRequest
     {
         public string CategoryName { get; set; }

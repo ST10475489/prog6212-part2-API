@@ -12,5 +12,5 @@ CI/CD WORKFLOW
 <img width="689" height="115" alt="image" src="https://github.com/user-attachments/assets/2e241265-15e3-4742-95a1-3e245675fa7e" />
 
 
-Youtube link : https://youtu.be/0PZKpBXTOx4
+Youtube link : https://youtu.be/4DtCe1MoRsk
 Github link: https://github.com/ST10475489/prog6212-part2-API

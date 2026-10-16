@@ -1,5 +1,6 @@
 namespace RaceDay.Api.Dtos
 {
+//for registration
     public class UserDto
     {
         public int UserId { get; set; }

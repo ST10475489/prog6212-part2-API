@@ -63,6 +63,7 @@ namespace RaceDay.Api.Controllers
             return StatusCode(201, new { userId = user.UserId, role = user.Role });
         }
 
+//for login 
         /// <summary>Logs a user in.</summary>
         /// <remarks>Expects email and password. Returns a JWT token and the user's role. Send the token as "Authorization: Bearer {token}" on later requests.</remarks>
         [HttpPost("login")]

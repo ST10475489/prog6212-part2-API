@@ -67,6 +67,7 @@ namespace RaceDay.Api.Controllers
             return Ok(ToDto(user));
         }
 
+//gets full history of user
         /// <summary>Gets the logged-in participant's full performance history.</summary>
         /// <remarks>Returns every result recorded against the user's enrolments.</remarks>
         [HttpGet("{id}/results")]

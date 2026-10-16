@@ -91,6 +91,7 @@ namespace RaceDay.Api.Controllers
             return Ok(raceEvent);
         }
 
+//deletes an event
         /// <summary>Deletes an event and everything that depends on it.</summary>
         /// <remarks>Organiser who owns the event only. Also removes its categories, route, enrolments and results. Returns no content.</remarks>
         [HttpDelete("{id}")]

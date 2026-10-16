@@ -18,6 +18,7 @@ namespace RaceDay.Api.Controllers
             _db = db;
         }
 
+//users gets logged into their own profile
         /// <summary>Gets the logged-in user's own profile.</summary>
         /// <remarks>Any role. The id in the route must be your own id. Returns the profile (never the password).</remarks>
         [HttpGet("{id}")]

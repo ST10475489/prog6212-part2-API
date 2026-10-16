@@ -1,5 +1,6 @@
 namespace RaceDay.Api.Dtos
 {
+//for registration
     public class RegisterRequest
     {
         public string FullName { get; set; }

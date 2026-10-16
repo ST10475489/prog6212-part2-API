@@ -22,6 +22,7 @@ namespace RaceDay.Api.Dtos
         public string Email { get; set; }
     }
 
+    //event information
     public class EventRequest
     {
         public string EventName { get; set; }

@@ -82,7 +82,7 @@ namespace RaceDay.Api.Controllers
             var builder = new ResultBuilder(_db);
             return Ok(builder.Build(enrolments));
         }
-
+//gets results of one category
         /// <summary>Gets the public results for one category.</summary>
         /// <remarks>Public. Returns an array of results ordered by position.</remarks>
         [HttpGet("api/categories/{id}/results")]

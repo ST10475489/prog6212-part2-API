@@ -41,6 +41,7 @@ namespace RaceDay.Api.Dtos
         public int MaxParticipants { get; set; }
     }
 
+    //for the map
     public class RouteRequest
     {
         public string RouteName { get; set; }
